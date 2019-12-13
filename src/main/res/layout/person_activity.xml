@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.PersonActivity"
+    tools:showIn="@layout/person_activity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first_name"
+            android:layout_marginTop="6dp"
+            android:gravity="bottom"
+            android:padding="1dp"
+            android:text="@string/first_name_pAct"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="2dp"
+            android:gravity="top"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/horiz_line_split"
+        android:layout_width="match_parent"
+        android:layout_height= "2dp"
+        android:background="@color/lineColor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/last_name"
+            android:layout_marginTop="6dp"
+            android:gravity="bottom"
+            android:padding="1dp"
+            android:text="@string/last_name_pAct"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/last_name"
+            android:layout_gravity="end"
+            android:gravity="top"
+            android:padding="2dp"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    <View
+        android:id="@id/horiz_line_split"
+        android:layout_width="match_parent"
+        android:layout_height= "2dp"
+        android:background="@color/lineColor" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender"
+            android:layout_marginTop="6dp"
+            android:gravity="bottom"
+            android:padding="1dp"
+            android:text="@string/gender_pAct"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender"
+            android:layout_gravity="end"
+            android:gravity="top"
+            android:padding="2dp"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    <View
+        android:id="@id/horiz_line_split"
+        android:layout_width="match_parent"
+        android:layout_height= "2dp"
+        android:background="@color/lineColor" />
+    <ExpandableListView
+        android:id="@+id/expandable_list"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FamilyMapClient</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="main_activity_page">Main Activity Page</string>
+    <string name="server_host">Server Host:</string>
+    <string name="server_port">Server Port:</string>
+    <string name="username">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="gender">Gender:</string>
+    <string name="email">Email:</string>
+    <string name="sign_in">Sign In</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+
+    <string name="mapTitle">Map</string>
+
+
+    <string name="lifeLines">Life Story Lines</string>
+    <string name="treeLines">Family Tree Lines</string>
+    <string name="spouseLines">Spouse Lines</string>
+    <string name="fatherSide">Father\'s Side</string>
+    <string name="motherSide">Mother\'s Side</string>
+    <string name="maleEventFilter">Male Events</string>
+    <string name="femaleEventFilter">Female Events</string>
+    <string name="logoutButton">Logout</string>
+    <string name="settings">SettingsActivity</string>
+    <string name="settings_button">Settings</string>
+
+    <string name="first_name_pAct">First Name</string>
+    <string name="last_name_pAct">Last Name</string>
+    <string name="gender_pAct">Gender</string>
+
+    <string name="search">Search</string>
+
+</resources>
